@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+.container-fluid{
+    width: 100%;
+    height: 663px;
+    margin: 36px 0px 0px 0px;
+   
+}
+
+.container-fluid::after{
+    content:'';
+    height: 663px;
+    background: url(../IMAGES/sky.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: right;
+    align-items: right;
+    justify-content: right;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    filter: blur(3px);
+    z-index: -1;
+    opacity: 0.7 ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+
+.container{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 500px;
+    position: absolute;
+    margin: 4% 35%;
+    width: 391px;
+    /* align-items: center; */
+    text-align: center;
+    line-height: 1em;
+    /* filter: blur(1px); */
+}
+.container fieldset{
+    margin: -1% 9%;
+    /* background-color: aqua; */
+    width: 357px;
+}
+.container form{
+    width: 391px;
+    margin: 20px 0px 0px -34px;
+    z-index: 1;
+    /* background-color: aquamarine; */
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.col-sm-6{
+    position: relative;
+    z-index: 1;
+}
+.row input{
+    height: 50px;
+    width: 95%;
+    margin: 13px;
+    padding-left: 15px;
+}
+.row textarea{
+    width: 95%;
+    margin: 10px;
+    margin: 13px;
+    padding-left: 15px;
+    padding-top: 11px;
+
+}
+.col-sm-6 button{
+    border-color: aliceblue;
+    font-size: x-large;
+    height: 50px;
+    width: 217%;
+    margin: 10px 0px 0px 1px;
+    color: aliceblue;
+    background-color: rgb(108, 108, 174);
+}

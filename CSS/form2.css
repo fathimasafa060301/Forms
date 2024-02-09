@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    width:100%;
+    height: auto;
+}
+
+.container-fluid{
+    height: 600px;
+    background: url(../IMAGES/sea.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 3% auto;
+}
+.container{
+    margin: 10px 0px 0px 0px;
+    height: 500px;
+    position: absolute;
+    margin: 0 auto;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    line-height: 1em;
+}
+.container fieldset{
+    margin: -1% 9%;
+
+}
+.container form{
+    margin: 64px 0px 0px 100px;
+}
+.container p{
+    margin: 0px 0px 0px 50px;
+    padding-bottom: 15px;
+    text-align: start;
+    color: white
+}
+.container legend{
+    margin: 0px 0px 0px 50px;
+    font-size: 30px;
+    padding-bottom: 15px;
+    text-align: start;
+    color: white
+}
+.col-sm-6 input{
+    height: 50px;
+    width: 80%;
+    margin: 10px;
+    padding-left: 15px;
+}
+.col-sm-12 textarea{
+    padding-top: 10px;
+    height: 176px;
+    width: 90%;
+    margin: 10px;
+    padding-left: 15px;
+}
+.col-sm-2{
+    margin-left: 32px;
+}
+.col-sm-2 button{
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+    background-color: rgb(47 70 198 );
+    color: white;
+}
